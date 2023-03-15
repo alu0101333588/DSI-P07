@@ -1,0 +1,36 @@
+{
+  "name": "dsi-p07",
+  "version": "1.0.0",
+  "description": "Práctica 07 - DSI",
+  "main": ".eslintrc.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls && rm -rf .nyc_output",
+    "start": "tsc-watch --onSuccess \"node dist/ejercicio-2/Lista.js\"",
+    "doc": "typedoc; touch ./docs/.nojekyll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alu0101333588/DSI-P07.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0101333588/DSI-P07/issues"
+  },
+  "homepage": "https://github.com/alu0101333588/DSI-P07#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "coveralls": "^3.1.1",
+    "eslint": "^8.36.0",
+    "nyc": "^15.1.0",
+    "tsc-watch": "^6.0.0",
+    "typedoc": "^0.23.26"
+  }
+}
