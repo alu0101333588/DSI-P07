@@ -1,0 +1,6 @@
+class ImperialLength
+-> pulgadas, pies, yardas, millas
+
+class ImperialMass
+-> onzas, libras, piedras, centenas y toneladas
+

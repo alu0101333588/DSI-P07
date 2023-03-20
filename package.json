@@ -25,12 +25,17 @@
   },
   "homepage": "https://github.com/alu0101333588/DSI-P07#readme",
   "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
+    "chai": "^4.3.7",
     "coveralls": "^3.1.1",
     "eslint": "^8.36.0",
+    "mocha": "^10.2.0",
     "nyc": "^15.1.0",
+    "ts-node": "^10.9.1",
     "tsc-watch": "^6.0.0",
-    "typedoc": "^0.23.26"
+    "typedoc": "^0.23.27"
   }
 }
